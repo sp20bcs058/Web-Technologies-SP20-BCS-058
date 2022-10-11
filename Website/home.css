@@ -1,0 +1,568 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    background-color: black;
+    height: 40px;
+}
+
+.topbar .topbarmenu > a{
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-family: Calibri;
+    margin: 10px 0px;
+    color: darkgray;
+    border-right: 1px solid darkgray;
+    padding: 0 20px;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.topbar a:hover{
+    color: white;
+}
+
+.topbar .topbarmenu{
+    margin-left: 200px;
+}
+
+.topbar .topbaricon a>img{
+    float: left;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.topbar .topbaricon{
+    float: left;
+    margin: 10px;
+    margin-left: 410px;
+}
+
+.mibar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 210px;
+    height: 65px;
+    position: absolute;
+}
+
+.mibar > a{
+    text-decoration: none;
+    margin: 0px 10px;
+    font-family: Franklin Gothic;
+    color: white;
+}
+
+.mibar >a:hover{
+    color: #ff6700;
+}
+
+.mibar .logo{
+    width: 55px;
+}
+
+.ad{
+    height: 580px;
+    background-color: orange;
+}
+
+.ad > img{
+    width: 100%;
+    height: 100%;
+}
+
+.extrabar{
+    background-color: lightgray;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 180px;
+}
+
+.extrabar img{
+    width: 30px;
+    height: 30px;
+}
+
+.extrabar p{
+    font-family: Franklin Gothic;
+    margin-left: 15px;
+}
+
+.extrabar div{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.threeads{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 140px;
+}
+
+.threeads img{
+    margin-top: 20px;
+} 
+
+.bestsellers{
+    background-color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bestsellers > p{
+    color: black;
+    font-size: 30px;
+    font-family: Arial;
+    margin: 0px 50px;
+}
+
+.bestsellers .leftline{
+    background-color: lightgray;
+    height: 1px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+}
+
+.bestsellers .rightline{
+    background-color: lightgray;
+    height: 1px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+}
+
+.bestsellersproducts{
+    background-color: #dddddd;
+    height: 650px;
+    margin: 0px 140px;
+    display: flex;
+}
+
+.bestsellersproducts .leftad{
+    height: 600px;
+    display: flex;
+}
+
+.bestsellersproducts .rightads{
+    display: flex;
+    flex-direction: column;
+}
+
+.bestsellersproducts .rightads .topads{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestsellersproducts .rightads .bottomad{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestsellersproducts .rightad{
+    display: flex;
+    height: 300px;
+}
+
+.bestsellersproducts .bottomad{
+    display: flex;
+    height: 300px;
+}
+
+.hotaccessories{
+    background-color: #f5f5f5;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotaccessories > p{
+    color: black;
+    font-size: 30px;
+    font-family: Arial;
+    margin: 0px 50px;
+}
+
+.hotaccessories .leftline{
+    background-color: #f5f5f5;
+    height: 1px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+}
+
+.hotaccessories .rightline{
+    background-color: #f5f5f5;
+    height: 1px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+}
+
+.hotaccessoriesdevices{
+    background-color: #f5f5f5;
+    height: 660px;
+}
+
+.hotaccessoriesdevices .topbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.hotaccessoriesdevices .topbar > a{
+    color: gray;
+    font-family: Calibri;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.hotaccessoriesdevices .topbar > a:hover{
+    color: #ff6700;
+    border-bottom: 1px solid #ff6700;
+}
+
+.hotaccessoriesdevices .ads{
+    display: flex;
+    margin: 5px 120px;
+}
+
+.hotaccessoriesdevices .ads .leftad{
+    height: 600px;
+    display: flex;
+    width: 300px;
+}
+
+.hotaccessoriesdevices .ads .rightads .righttopads{
+    display: flex;
+    height: 300px;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.hotaccessoriesdevices .ads .rightads .rightbottomads{
+    display: flex;
+    height: 300px;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.hotaccessoriesdevices .ads .rightads > div{
+    margin: 20px 0px;
+}
+
+.hotaccessoriesdevices .ads .leftad > img{
+    margin-top: 20px; 
+}
+
+.videos{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos > p{
+    color: black;
+    font-size: 30px;
+    font-family: Arial;
+    margin: 0px 50px;
+}
+
+.videos .leftline{
+    background-color: #f5f5f5;
+    height: 1px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+}
+
+.videos .rightline{
+    background-color: #f5f5f5;
+    height: 1px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+}
+
+.videolinks{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+}   
+
+.latestblogs{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latestblogs > p{
+    color: black;
+    font-size: 30px;
+    font-family: Arial;
+    margin: 0px 50px;
+}
+
+.latestblogs .leftline{
+    background-color: #f5f5f5;
+    height: 1px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+}
+
+.latestblogs .rightline{
+    background-color: #f5f5f5;
+    height: 1px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-top: 0px;
+}
+
+.latestblogslinks{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+
+.latestblogstext{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+
+.latestblogstext > div > h1{
+    font-family: Calibri;
+    font-size: large;
+    text-align: center;
+}
+
+.latestblogstext > div > p{
+    font-family: Calibri;
+    font-size: small;
+    margin: 0px 10px;
+}
+
+.latestblogsbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 250px;
+}
+
+.latestblogsbutton > a{
+    font-family: Calibri;
+    border: 2px solid #ff6700;
+    text-decoration: none;
+    padding: 5px 30px;
+}
+
+.latestblogsmorebutton{
+    background-color: #ff6700;
+    margin: 20px 688px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latestblogsmorebutton > a{
+    font-family: Calibri;
+    color: white;
+    text-decoration: none;
+}
+
+.description{
+    margin: 0px 90px;
+}
+
+.description .title{
+    font-family: Calibri;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.description .heading1{
+    font-family: Calibri;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.description .heading2{
+    font-family: Calibri;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.description .heading3{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+}
+
+.description .detail{
+    font-family: Calibri;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.description .offers > li{
+    font-family: Calibri;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.services{
+    display: flex;
+}
+
+.services .orangebg1{
+    background-color: orangered;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.services .orangebg2{
+    background-color: darkorange;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.services .orangebg3{
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.services > div > img{
+    width: 230px;
+}
+
+.socialbar{
+    display: flex;
+    margin: 0px 120px;
+    align-items: center;
+    height: 80px;
+}
+
+.socialbar > input{
+    margin-left: 80px;
+    height: 30px;
+    width: 300px;
+}
+
+.socialbar .text1{
+    font-family: Calibri;
+    width: 300px;
+}
+
+.socialbar .text2{
+    font-family: Calibri;
+    margin-left: 30px;
+    width: 200px;
+}
+
+.socialbar .icons{
+    display: flex;
+    margin-left: 280px;
+}
+
+.socialbar .icons > a > img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.specialbuttons{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: lightgrey;
+}
+
+.specialbuttons > div{
+    display: flex;
+    align-items: center;
+}
+
+.specialbuttons > div > img{
+    width: 20px;
+}
+
+.specialbuttons > div > a{
+    font-family: Calibri;
+    text-decoration: none;
+    margin: 0px 10px;
+    color: black;
+}
+
+.specialbuttons > div > a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #212121;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px;
+    justify-content: space-between;
+}
+
+.footer > div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.footer .c1{
+    margin-left: 120px;
+}
+
+.footer .c5{
+    margin-right: 120px;
+}
+
+.footer > div > p{
+    font-family: Calibri;
+    font-weight: bold;
+    color: lightgrey;
+    font-size: 15px;
+}
+
+.footer > div > a{
+    font-family: Calibri;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 14px;
+}
+
+.footer > div > a:hover{
+    text-decoration: underline;
+    color: white;
+}
