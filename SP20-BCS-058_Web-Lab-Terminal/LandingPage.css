@@ -1,0 +1,138 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main .leftcolumn{
+    background-color: white;
+    flex: 1;
+}
+
+.main .rightcolumn{
+    background-color: white;
+    flex: 1;
+}
+
+.main .content{
+    flex: 3;
+}
+
+.main .content .topbar{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+}
+
+.main .content .topbar p{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main .content .topbar a img{
+    width: 25px;
+    margin-left: 8px;
+}
+
+.main .content .menubar{
+    height: 70px;
+    background-color: #140033;
+}
+
+.main .content .menubar img{
+    margin-right: 70px;
+}
+
+.main .content .menubar a{
+    text-decoration: underline;
+    margin-right: 20px;
+    color: white;
+    font-family: Calibri;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main .content .menubar a.imp{
+    color: yellow;
+}
+
+.main .content .others{
+    height: 150px;
+    background-image: linear-gradient(to right, #660000, #cc0000);
+    display: flex;
+    flex-direction: column;
+}
+
+.main .content .others .ad{
+    height: 120px;
+}
+
+.main .content .others .ad img{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main .content .others .othersmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.main .content .others .othersmenu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.main .content .others .othersmenu a:hover{
+    text-decoration: underline;
+}
+
+.main .content .news{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main .content .news .fullnews{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .content .news .fullnews img{
+    width: 300px;
+}
+
+.main .end{
+    display: flex;
+    justify-content: center;
+}
+
+.main .end a{
+    text-decoration: none;
+    color: darkred;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main .end a:hover{
+    text-decoration: underline;
+}
